@@ -1,0 +1,24 @@
+GET http://localhost:3000/users
+
+###
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Fred",
+    "password": "iowejfaoijwnfeowaijfwaeo"
+}
+
+###
+
+POST http://localhost:3000/users/login
+Content-Type: application/json
+
+{
+    "name": "Fred",
+    "password": "iowejfaoijwnfeowaijfwaeo"
+}
+
+###
+GET http://localhost:3000/schedule
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSmVycnkiLCJwYXNzd29yZCI6IiQyYiQxMCRoZFNDU2FXc1JuNGZpOG45eXE5d3AucU1Bd0FSYjN6Tkdzd1lvcDVXWjIvMmxmbHBIZWExUyIsImlhdCI6MTYzMjExOTAxNH0.d2xpby_-gOTM5UEcMYTe2XVmKrlAArSAMd4teKT7INY
