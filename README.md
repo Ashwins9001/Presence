@@ -1,12 +1,12 @@
 # Welcome to Using Presence
-![alt text](https://github.com/Ashwins9001/Presence-App/blob/main/img/front-end.PNG)
+![alt text](https://github.com/Ashwins9001/Presence/blob/main/img/front-end.PNG)
 Are you running late to work while waiting to call your kid in sick to school? With Presence you can mark your child's absence easily and hands-free! Presence is an Amazon Alexa application that uses a voice-activated system to record your child's sick days. Never be late or annoyed again with Presence. 
 
 For school administration staff, Presence offers an automated solution to recording absences that minimizes school resources by streamlining the attendance process. We all know how important it is to make sure every child is safe and missing school for a good reason. But we also know how great it feels to have less work to do. School staff can relax, sit back and let Presence handle the busy work.
 
 <p align="center">
-  <img src="https://github.com/Ashwins9001/Presence-App/blob/main/img/parent-kid.png" width="280" />
-  <img src="https://github.com/Ashwins9001/Presence-App/blob/main/img/school.jpg" width="350" /> 
+  <img src="https://github.com/Ashwins9001/Presence/blob/main/img/parent-kid.png" width="280" />
+  <img src="https://github.com/Ashwins9001/Presence/blob/main/img/school.jpg" width="350" /> 
 </p>
 
 
@@ -15,11 +15,11 @@ Presence uses a heroku-deployed API and MongoDB Atlas Cluster to create a mock s
 
 The API is built using Express and Node, and the front-end displayed to school administrators is created with React.
 
-![alt text](https://github.com/Ashwins9001/Presence-App/blob/main/img/VF-process.PNG)
+![alt text](https://github.com/Ashwins9001/Presence/blob/main/img/VF-process.PNG)
 Shown above is the VoiceFlow configuration
 
 
-![alt text](https://github.com/Ashwins9001/Presence-App/blob/main/img/Alexa-workflow.PNG)
+![alt text](https://github.com/Ashwins9001/Presence/blob/main/img/Alexa-workflow.PNG)
 Shown above is a demonstration on the Alexa SDK test suite. If an Alexa-powered device such as an Amazon Echo is available, the application can run on that as well. 
 
 ## Security
